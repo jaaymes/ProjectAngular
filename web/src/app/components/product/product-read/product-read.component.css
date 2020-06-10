@@ -1,0 +1,23 @@
+table {
+  width: 100%;
+}
+
+.edit {
+margin-right: 10px;
+}
+
+.edit > i {
+  color: #3f51b5;
+  padding: 5px;
+}
+
+.delete > i{
+  color:rgb(202, 13, 32);
+}
+
+.breakrow {
+  max-width: 15ch;
+  padding-right: 5px;
+}
+
+

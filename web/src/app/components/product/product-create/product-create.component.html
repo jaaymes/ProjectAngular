@@ -1,0 +1,37 @@
+<mat-card class="animation">
+  <mat-card-title >Novo Produto</mat-card-title>
+</mat-card>
+
+<form class="animation">
+  <mat-form-field>
+
+    <input matInput placeholder="Nome" 
+    [(ngModel)]="product.name"
+    name="name">
+
+  </mat-form-field>
+
+  <mat-form-field>
+
+    <input  matInput placeholder="Preço (R$)" currencyMask [options]="{align: 'left', prefix: 'R$'}"
+    [(ngModel)]="product.price"  name="price">
+
+  </mat-form-field>
+
+  <mat-form-field>
+
+    <input  matInput name="desciption" placeholder="Descrição" [(ngModel)]="product.description">
+
+  </mat-form-field>
+
+  
+
+</form>
+
+<button mat-raised-button (click)="createProduct()" color="primary" class="animation">
+  Salvar
+</button>
+
+<button mat-raised-button (click)="cancel()" color="" class="animation">
+  Cancelar
+</button>

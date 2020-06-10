@@ -1,0 +1,33 @@
+dentro da pasta api rodar este comando: yarn ou npm update
+
+para iniciar o API dentro da pasta api: npm run dev ou yarn dev
+
+
+========///=============///=========///============//======
+
+dentro da pasta web rodar este comando: npm update
+
+para iniciar o o client dentro da pasta web: npm start
+
+
+========///=============///=========///============//======
+
+
+dentro da pasta api rodar esses comandos para criar o bando de dados e suas tabelas
+
+
+Criar Banco de dados
+
+1° yarn add sequelize-cli -D
+
+
+2º yarn sequelize db:create
+
+
+obs: migrations já estão criadas
+
+
+3° yarn sequelize db:migrate
+
+
+obs: banco de dados e tabela criadas
